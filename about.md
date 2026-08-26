@@ -6,11 +6,15 @@ permalink: /about/
 
 ## About this journal
 
-I'm Dr. Parvathi Valsalan, an experimental physicist specializing in optical metrology, free-space system integration, and thin-film microcavities (PhD, Universität Heidelberg, 2025). My PhD and Master's work involved building and aligning laser diagnostics, confocal and Fourier-space imaging systems, photoluminescence/electroluminescence spectroscopy, and transfer-matrix-method (TMM) modeling of multilayer thin films.
+For the last four years, my job was to work with pre-designed optical setups like microscopes, spectrometers, and optical bench setups like confocal and Fourier-space systems. Align the beam path, chase down why a confocal setup wasn't collecting the signal it should, figure out whether a discrepancy between a TMM simulation and a reflectivity measurement was the model or the system alignment. That's most of a PhD in experimental physics: you inherit a design and you make it work for your project.
 
-I'm now building fluency in Zemax OpticStudio to move from *characterizing* optical systems to *designing* them — the natural next step for someone who has spent years aligning the systems other people designed.
+I'm now teaching myself to be the person who makes the design in the first place. Learning Zemax OpticStudio, one system at a time.
 
-This site documents that process publicly: weekly write-ups of what I built, what broke, what the simulations predicted versus what my lab experience says should happen, and the reasoning behind each design choice. The goal is a portfolio that's useful to two audiences — other physicists making the same transition into optical engineering, and hiring managers who want to see real reasoning, not just a course completion certificate.
+The physics isn't new to me. I've spent years elbow-deep in free-space optics, laser alignment, Fourier and confocal imaging, and multilayer thin-film modeling, and I know from the lab side exactly where theory and hardware disagree with each other. What's new is sitting on the other side of the simulation — making the design decisions instead of debugging their consequences.
+
+Each week here is a record of one piece of that: what I tried to build in Zemax, what the model predicted, what my instinct from years at the optical table said should happen instead, and which one turned out to be right. Some weeks that's a clean match. Some weeks it's a two-day rabbit hole into why it wasn't.
+
+I'm early in the software specifically. I'm not early in the optics.
 
 **Background:** [LinkedIn](#) · **Project files:** [GitHub](#) · **Contact:** parvathivshylaja@gmail.com
 
