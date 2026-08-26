@@ -5,7 +5,7 @@ date: 2026-08-25
 categories: [ray-optics]
 ---
 
-**Problem:** Get Zemax OpticStudio Student running and build the simplest possible sequential system — a single plano-convex lens focusing a collimated beam — as a sanity check before anything more complex.
+**Problem:** Get Zemax OpticStudio Student running and build the simplest possible sequential system. A single plano-convex lens focusing a collimated beam as a sanity check before anything more complex.
 
 **Approach:**
 This is the direct simulation equivalent of focusing an OBIS diode laser onto a sample on the bench: collimated input, one lens, a focal spot. I set the aperture to match a beam diameter I've actually used, picked a plano-convex lens from the catalog, and let Zemax trace the marginal and chief rays to the paraxial focus.
