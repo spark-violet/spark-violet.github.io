@@ -1,0 +1,17 @@
+title: "Zemax Learning Journal"
+description: "Building senior-level optical engineering skills in Zemax OpticStudio — documented week by week, from an experimental physics background."
+theme: minima
+author: Dr. Parvathi Valsalan
+show_excerpts: true
+
+# Update these once your accounts exist:
+github_username: your-github-username
+linkedin_username: your-linkedin-username
+
+header_pages:
+  - about.md
+  - projects.md
+
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
