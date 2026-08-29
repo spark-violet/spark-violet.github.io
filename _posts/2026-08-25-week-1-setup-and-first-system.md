@@ -18,9 +18,9 @@ At 10 mm EPD (F/# ≈ 9), the RMS spot radius was **9.032 µm**, larger than the
 *(Insert here: screenshot of the 3D Layout and both Spot Diagrams.)*
 
 **What surprised me:**
-The ratio of the two spot sizes (9.032 / 0.575 ≈ **15.7×**) matched the textbook cube-law prediction for third-order spherical aberration, (10/4)³ ≈ 15.6×, almost exactly. Seeing that match land so cleanly made the aberration trade-off concrete in a way that just squinting at a focal spot on a bench never quite does — stopping down clearly fixes the geometric spot, but you're trading it directly for a bigger diffraction-limited floor (worse resolution, less throughput) at the higher F/#.
+The ratio of the two spot sizes (9.032 / 0.575 ≈ **15.7×**) matched the textbook cube-law prediction for third-order spherical aberration, (10/4)³ ≈ 15.6×, almost exactly. Seeing that match land so cleanly made the aberration trade-off concrete in a way that just squinting at a focal spot on a bench never quite does, stopping down clearly fixes the geometric spot, but you're trading it directly for a bigger diffraction-limited floor (worse resolution, less throughput) at the higher F/#.
 
-**Files:** [Week 1 project files on GitHub](#) — `week1_single_lens_focus.zos`
+**Files:** [Week 1 project files on GitHub]((https://github.com/spark-violet/zemax-learning-journal/tree/main/01_ray_optics) — `week1_single_lens_focus.zmx`
 
 ---
 *Full lab-notebook-style writeup (Aim, Theory, Method, Results, Observations, Inference, Next Steps) with lens schematic available separately.*
