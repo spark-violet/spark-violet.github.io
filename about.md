@@ -16,6 +16,6 @@ Each week here is a record of one piece of that: what I tried to build in Zemax,
 
 I'm early in the software specifically. I'm not early in the optics.
 
-**Background:** [LinkedIn](https://www.linkedin.com/in/dr-parvathi-valsalan-937b211b6/) · **Project files:** [GitHub](#) · **Contact:** parvathivshylaja@gmail.com
+**Background:** [LinkedIn](https://www.linkedin.com/in/dr-parvathi-valsalan-937b211b6/) · **Project files:** [GitHub](https://github.com/spark-violet) · **Contact:** parvathivshylaja@gmail.com
 
 
