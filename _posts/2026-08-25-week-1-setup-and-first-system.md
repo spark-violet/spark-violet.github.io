@@ -20,13 +20,13 @@ At 10 mm EPD (F/# ≈ 9), the RMS spot radius was **9.032 µm**, larger than the
 > **What "RMS spot radius" physically means:** Zemax fires a grid of rays through the lens and traces where each one lands on the image plane. Because of aberrations, they don't all land in exactly the same spot — they spread into a small cloud. RMS (root-mean-square) radius is essentially the "average distance" of that cloud from its centroid, weighted so outliers count more (it's the same RMS you'd use for a standard deviation). Physically, it's a proxy for how big and blurry your focused spot actually is: a smaller RMS radius means a tighter, sharper focus. It's not the literal spot diameter you'd see on a screen (real spots have a soft, non-uniform intensity profile), but it's the standard single number optical engineers use to compare two designs' image quality at a glance.
 
 ![3D layout of the single-lens system](/assets/week1/layout.png)
-*3D Layout: collimated 532 nm beam entering a plano-convex N-BK7 lens, focusing to a point.*
+*Figure 1: 3D Layout: collimated 532 nm beam entering a plano-convex N-BK7 lens, focusing to a point.*
 
 ![Spot diagram at 10mm EPD](/assets/week1/spot_10mm.png)
-*Spot diagram at F/# ≈ 9 — RMS radius 9.032 µm, visibly larger and less symmetric than the diffraction-limited case below.*
+*Figure 2: Spot diagram at F/# ≈ 9. RMS radius 9.032 µm, visibly larger and less symmetric than the diffraction-limited case below.*
 
 ![Spot diagram at 4mm EPD](/assets/week1/spot-4mm.png)
-*Spot diagram at F/# ≈ 22.5 — RMS radius 0.575 µm, tight and essentially diffraction-limited.*
+*Figure 3: Spot diagram at F/# ≈ 22.5. RMS radius 0.575 µm, tight and essentially diffraction-limited.*
 
 **What surprised me:**
 The ratio of the two spot sizes (9.032 / 0.575 ≈ **15.7×**) matched the textbook cube-law prediction for third-order spherical aberration, (10/4)³ ≈ 15.6×, almost exactly. Seeing that match land so cleanly made the aberration trade-off concrete in a way that just squinting at a focal spot on a bench never quite does. Stopping down clearly fixes the geometric spot, but you're trading it directly for a bigger diffraction-limited floor (worse resolution, less throughput) at the higher F/#.
