@@ -34,4 +34,4 @@ The ratio of the two spot sizes (9.032 / 0.575 ≈ **15.7×**) matched the textb
 **Files:** [Week 1 project files on GitHub](https://github.com/spark-violet/zemax-learning-journal/tree/main/01_ray_optics): `week1_single_lens_focus.zmx`
 
 ---
-*Full lab-notebook-style writeup (Aim, Theory, Method, Results, Observations, Inference, Next Steps) with lens schematic available separately.*
+*Full lab-notebook-style writeup available on [GitHub](https://github.com/spark-violet/zemax-learning-journal/tree/main/01_ray_optics/experiment-1-single-lens).*
