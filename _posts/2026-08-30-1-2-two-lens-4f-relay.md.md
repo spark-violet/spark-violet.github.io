@@ -39,6 +39,11 @@ On-axis, stop position changes essentially nothing. Off-axis, it's nearly a 4× 
 ![Config A 3D layout at matched fields, showing the off-axis bundles striking Lens 2 asymmetrically](/assets/week1-1/configA_matched_layout.png)
 *Config A: because the stop sits at Lens 1, off-axis bundles (green/red) hit Lens 2 off-center and at a steep angle - the direct geometric cause of coma.*
 
+Compare that to Config B's ray geometry, symmetric about the stop:
+
+![Config B 3D layout showing the telecentric 4f bowtie pattern, symmetric about the Fourier plane](/assets/week1-1/telecentric_bowtie.png)
+*Config B: stop at the Fourier plane makes the whole system symmetric about that plane — every field's bundle crosses the same shared point and hits Lens 2 as a mirror image of how it left Lens 1. That geometric symmetry is what cancels coma.*
+
 > **Why on-axis doesn't care but off-axis does:** for an on-axis point, the chief ray *is* the optical axis no matter where the stop sits — so on-axis image quality (dominated by spherical aberration here) barely notices stop position. Off-axis, stop position decides which part of each lens the oblique bundle actually passes through. Put the stop asymmetrically (Config A) and you get **coma** — the classic comet-shaped off-axis blur. Put the stop at the symmetry point of an otherwise-symmetric system (Config B — same two lenses, same spacing, mirrored about the stop) and coma cancels almost by geometry alone. This is the actual reason symmetric lens designs were the standard approach long before computers could optimize aspheric surfaces.
 
 The through-focus spot diagrams make the difference impossible to miss:
