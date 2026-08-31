@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1.1: Setup and my first sequential system"
+title: "1.1. Setup and my first sequential system"
 date: 2026-08-25
 categories: [ray-optics]
 ---
