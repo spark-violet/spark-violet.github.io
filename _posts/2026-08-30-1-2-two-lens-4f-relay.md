@@ -18,7 +18,7 @@ I reused single lens project's exact lens prescription (plano-convex N-BK7, R = 
 **Result - Config A (stop at Lens 1):**
 This one worked cleanly on the first try.
 
-![Figure 1: Lens data, spot diagrams, and 3D layout for the baseline two-lens relay with the stop at Lens 1](/assets/week1/configA_working.png)
+![Figure 1: Lens data, spot diagrams, and 3D layout for the baseline two-lens relay with the stop at Lens 1](/assets/week1-1/configA_working.png)
 *Lens Data, Spot Diagram (on-axis and 1° field), and 3D Layout for Config A. RMS radius: 152.985 µm on-axis, 187.436 µm off-axis.*
 
 Both lenses' spherical aberration stacks (nearly 17× worse than Week 1's single-lens RMS of 9.032 µm), and the 1° off-axis field shows visibly more spread than on-axis — coma showing up for the first time now that there's an actual field angle to image, not just a single collimated point.
