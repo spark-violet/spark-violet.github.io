@@ -29,26 +29,26 @@ Moving the stop into the middle of the 192 mm gap broke the system twice, for tw
 
 *Failure 1 - aperture type incompatible with an object-space-telecentric system:*
 
-![Broken aperture state after moving the stop to the Fourier plane, with collapsed clear semi-diameters and a chief-ray trace error](/assets/week1/configB_epd_fail.png)
+![Broken aperture state after moving the stop to the Fourier plane, with collapsed clear semi-diameters and a chief-ray trace error](/assets/week1-1/configB_epd_fail.png)
 *Clear semi-diameters collapse to ~0.15 mm at the lens surfaces while the object surface balloons to 75 mm, and the spot diagram fails outright.*
 
 Because the object sits exactly at Lens 1's front focal plane, this exact geometry is **object-space telecentric** - the entrance pupil (imaged back from the new stop position) sits at infinity. "Entrance Pupil Diameter" as an aperture type needs a finite pupil location to mean anything, so the paraxial solver degenerated. Fix: switch **Aperture Type to Object Space NA** (value 0.052, matching the original 10 mm EPD at 96 mm object distance).
 
 *Failure 2 - Field Type incompatible with a finite-conjugate object:*
 
-![Field data editor showing Angle-type fields causing a chief ray trace failure even after fixing the aperture type](/assets/week1/fieldtype_diagnosis2.png)
+![Field data editor showing Angle-type fields causing a chief ray trace failure even after fixing the aperture type](/assets/week1-1/fieldtype_diagnosis2.png)
 *Even with the aperture fixed, the 1° off-axis field still failed - the Field Type was set to "Angle," which only makes sense for an object at infinity.*
 
 My object is at a *finite* 96 mm, not infinity, so "1° field angle" was a contradiction the solver couldn't resolve - it degenerated harmlessly at (0°,0°) but broke immediately off-axis. Fix: switch **Field Type to Object Height**, entering the off-axis field as an actual 1 mm object height rather than an angle.
 
 With both fixes in place, the ray trace finally produces the textbook 4f "bowtie" - I added a third, mirrored field (−5, −5 mm) to get the full symmetric picture:
 
-![Corrected 3D layout of the telecentric 4f relay showing the characteristic three-color bowtie ray pattern crossing at the Fourier plane](/assets/week1/telecentric_bowtie.png)
+![Corrected 3D layout of the telecentric 4f relay showing the characteristic three-color bowtie ray pattern crossing at the Fourier plane](/assets/week1-1/telecentric_bowtie.png)
 *3D Layout after both fixes, with three fields - on-axis (blue) and two symmetric off-axis bundles (green, red) cross cleanly through a shared Fourier plane.*
 
 **Quantitative check:** on-axis RMS radius came out to 152.886 µm - essentially identical to Config A's 152.985 µm. That's expected, not a disappointment: telecentricity is about pupil location, not aberration correction, so it was never going to shrink the spot. The real payoff shows up in a Through-Focus Spot Diagram instead:
 
-![Through-focus spot diagrams for all three fields across a defocus sweep, showing minimal change in spot size or position](/assets/week1/through_focus.png)
+![Through-focus spot diagrams for all three fields across a defocus sweep, showing minimal change in spot size or position](/assets/week1-1/through_focus.png)
 *Through-Focus Spot Diagram, ±100 µm defocus sweep, all three fields. Spot size and position barely shift across the sweep.*
 
 That stability under defocus - not a smaller spot, but a spot that doesn't move or rescale as focus drifts - is the actual, tangible benefit of telecentricity, and now I can see it directly instead of just asserting it from theory.
