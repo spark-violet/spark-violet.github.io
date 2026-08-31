@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 2: A 4f two-lens relay — and two lessons in aperture definitions"
+title: "1.2. A 4f two-lens relay"
 date: 2026-08-30
 categories: [ray-optics, system-design]
 ---
