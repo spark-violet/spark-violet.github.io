@@ -7,7 +7,7 @@ permalink: /projects/
 A structured index of every project, in build order. Each entry links to the full write-up and the project files on GitHub. Update this page every time you finish a milestone project — it's the single page you'll point recruiters and interviewers to.
 
 ## Phase 1 : Ray Optics Fundamentals ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/01_ray_optics))
-- [Single-lens focusing system](https://spark-violet.github.io/_posts/2026-08-25-1-1-setup-and-first-system/)
+- [Single-lens focusing system](https://spark-violet.github.io/2026/08/25/1-1-setup-and-first-system/)/)
 - [2-lens relay / 4f imaging system](https://spark-violet.github.io/_posts/2026-08-30-1-2-two-lens-4f-relay/)
 - **Milestone:** Telecentric relay lens (0°-incidence imaging)
 
