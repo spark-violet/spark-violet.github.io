@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1.2: Two-Lens 4f Relay"
+title: "1.2. Two-Lens 4f Relay"
 date: 2026-08-30
 categories: [ray-optics, system-design]
 ---
