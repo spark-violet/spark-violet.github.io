@@ -4,34 +4,39 @@ title: Projects
 permalink: /projects/
 ---
 
-A structured index of every project, in build order. Each entry links to the full write-up and the project files on GitHub. 
+An index of the projects in this journal, in build order. Finished projects link to the full write-up and the Zemax files on GitHub. The rest of the plan is listed below, so you can see where the journal is heading.
 
-## Phase 1 : Ray Optics Fundamentals ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/01_ray_optics))
-- [Single-lens focusing system](https://spark-violet.github.io/2026/08/25/1-1-setup-and-first-system/)
-- [2-lens relay / 4f imaging system](https://spark-violet.github.io/2026/08/30/1-2-two-lens-4f-relay/)
-- **Milestone:** Telecentric relay lens (0°-incidence imaging)
+## Completed
 
-## Phase 2 : System Design & Optimization ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/02_system_design))
+### Phase 1: Ray Optics Fundamentals ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/01_ray_optics))
+- [1.1 Single-lens focusing system](https://spark-violet.github.io/2026/08/25/1-1-setup-and-first-system/): spot size versus aperture, aberration versus diffraction limit
+- [1.2 Two-lens 4f relay](https://spark-violet.github.io/2026/08/30/1-2-two-lens-4f-relay/): moving the stop to the Fourier plane cancels coma
+
+## In progress
+- Phase 1 milestone: telecentric relay lens (0° incidence imaging)
+
+## Planned
+
+### Phase 2: System Design & Optimization
 - Optimized achromatic doublet (local optimization)
 - Tolerance sensitivity analysis
-- **Milestone:** Optimized, toleranced microscope objective-relay
+- Milestone: optimized, toleranced microscope objective relay
 
-## Phase 3 : Light Source Coupling ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/03_source_coupling))
+### Phase 3: Light Source Coupling
 - Gaussian beam propagation through a beam expander
-- **Milestone:** Source-to-fiber coupling efficiency vs. misalignment
+- Milestone: source-to-fiber coupling efficiency versus misalignment
 
-## Phase 4 : Illumination Optics ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/04_illumination))
+### Phase 4: Illumination Optics
 - LED illuminator with uniformity measurement
 - Köhler illumination path for a simulated microscope
-- **Milestone:** Full illumination subsystem (source + collector + homogenizer)
+- Milestone: full illumination subsystem (source, collector, homogenizer)
 
-## Phase 5 : Advanced Topics
-- Coating reflectivity: Zemax vs. my own TMM/experimental thin-film data
+### Phase 5: Advanced Topics
+- Coating reflectivity: Zemax compared with my own transfer-matrix and experimental thin-film data
 
-## Capstone ([files](https://github.com/spark-violet/zemax-learning-journal/tree/main/05_capstone))
-- **End-to-end optical design of a compact PL microscopy/spectroscopy system**
-  Full design report, tolerance budget, and comparison to real instrument performance.
+### Capstone
+- End-to-end optical design of a compact photoluminescence microscopy and spectroscopy system, with a design report, tolerance budget and comparison to real instrument performance
 
 ---
 
-*Each linked write-up follows the same structure: problem → approach → result → what surprised me. Project files (.zos, specs, images) are archived in the [zemax-learning-journal](https://github.com/spark-violet/zemax-learning-journal) GitHub repository.*
+*Each write-up follows the same structure: problem, approach, result, and what surprised me.*
